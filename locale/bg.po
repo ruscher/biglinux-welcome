@@ -215,17 +215,9 @@ msgstr "Вашето дарение е много важно за проекта
 msgid "BigLinux Welcome"
 msgstr "Добре дошли в BigLinux"
 # 
-# File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 50
-msgid "Finish"
-msgstr "Завършете"
-# 
 # File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 57
 msgid "Show on startup"
 msgstr "Покажи при стартиране"
-# 
-# File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 162
-msgid "Welcome"
-msgstr "Добре дошли"
 # 
 # File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 226
 msgid "Back"
@@ -235,17 +227,13 @@ msgstr "Назад"
 msgid "Next"
 msgstr "Следващият"
 # 
-# File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 242
-msgid "Cancel"
-msgstr "Отмяна"
+# File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 186
+msgid "Close"
+msgstr "Затвори"
 # 
-# File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 141
-msgid "Check if 'pages.yaml' exists and is correctly formatted."
-msgstr "Проверете дали 'pages.yaml' съществува и е правилно форматиран."
-# 
-# File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 326
-msgid "Error"
-msgstr "Грешка"
+# File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 162
+msgid "Welcome"
+msgstr "Добре дошли"
 # 
 # File: biglinux-welcome/usr/share/biglinux/welcome/welcome_logo_page.py, line: 81
 # File: biglinux-welcome/usr/share/biglinux/welcome/welcome_logo_page.py, line: 132

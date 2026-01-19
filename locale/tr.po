@@ -235,10 +235,6 @@ msgstr "BigLinux Hoş Geldiniz"
 msgid "Show on startup"
 msgstr "Başlangıçta göster"
 # 
-# File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 162
-msgid "Welcome"
-msgstr "Hoş geldiniz"
-# 
 # File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 226
 msgid "Back"
 msgstr "Geri dön"
@@ -247,17 +243,13 @@ msgstr "Geri dön"
 msgid "Next"
 msgstr "Sonraki"
 # 
-# File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 242
-msgid "Cancel"
-msgstr "İptal et"
+# File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 186
+msgid "Close"
+msgstr "Kapat"
 # 
-# File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 141
-msgid "Check if 'pages.yaml' exists and is correctly formatted."
-msgstr "'pages.yaml' dosyasının var olup olmadığını ve doğru formatta olup olmadığını kontrol edin."
-# 
-# File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 326
-msgid "Error"
-msgstr "Hata"
+# File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 162
+msgid "Welcome"
+msgstr "Hoş geldiniz"
 # 
 # File: biglinux-welcome/usr/share/biglinux/welcome/welcome_logo_page.py, line: 81
 # File: biglinux-welcome/usr/share/biglinux/welcome/welcome_logo_page.py, line: 132

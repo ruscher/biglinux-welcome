@@ -216,18 +216,10 @@ msgid "BigLinux Welcome"
 msgstr "BigLinux ようこそ"
 # 
 # File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 50
-msgid "Finish"
-msgstr "完了"
-# 
-# File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 50
 # 
 # File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 57
 msgid "Show on startup"
 msgstr "起動時に表示"
-# 
-# File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 162
-msgid "Welcome"
-msgstr "ようこそ"
 # 
 # File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 226
 msgid "Back"
@@ -237,17 +229,13 @@ msgstr "戻る"
 msgid "Next"
 msgstr "次"
 # 
-# File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 242
-msgid "Cancel"
-msgstr "キャンセル"
+# File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 186
+msgid "Close"
+msgstr "閉じる"
 # 
-# File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 141
-msgid "Check if 'pages.yaml' exists and is correctly formatted."
-msgstr "'pages.yaml'が存在し、正しくフォーマットされているか確認してください。"
-# 
-# File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 326
-msgid "Error"
-msgstr "エラー"
+# File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 162
+msgid "Welcome"
+msgstr "ようこそ"
 # 
 # File: biglinux-welcome/usr/share/biglinux/welcome/welcome_logo_page.py, line: 81
 # File: biglinux-welcome/usr/share/biglinux/welcome/welcome_logo_page.py, line: 132

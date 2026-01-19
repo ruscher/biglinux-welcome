@@ -216,17 +216,9 @@ msgstr "Donația ta este foarte importantă pentru proiect și urmărește-ne pe
 msgid "BigLinux Welcome"
 msgstr "BigLinux Bun venit"
 # 
-# File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 50
-msgid "Finish"
-msgstr "Finalizați"
-# 
 # File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 57
 msgid "Show on startup"
 msgstr "Afișează la pornire"
-# 
-# File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 162
-msgid "Welcome"
-msgstr "Bine ai venit"
 # 
 # File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 226
 msgid "Back"
@@ -236,17 +228,13 @@ msgstr "Înapoi"
 msgid "Next"
 msgstr "Următorul"
 # 
-# File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 242
-msgid "Cancel"
-msgstr "Anulează"
+# File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 186
+msgid "Close"
+msgstr "Închide"
 # 
-# File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 141
-msgid "Check if 'pages.yaml' exists and is correctly formatted."
-msgstr "Verifică dacă 'pages.yaml' există și este formatat corect."
-# 
-# File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 326
-msgid "Error"
-msgstr "Eroare"
+# File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 162
+msgid "Welcome"
+msgstr "Bine ai venit"
 # 
 # File: biglinux-welcome/usr/share/biglinux/welcome/welcome_logo_page.py, line: 81
 # File: biglinux-welcome/usr/share/biglinux/welcome/welcome_logo_page.py, line: 132

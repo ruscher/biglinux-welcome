@@ -215,17 +215,9 @@ msgstr "Vaša darcovská činnosť je pre projekt veľmi dôležitá a sledujte 
 msgid "BigLinux Welcome"
 msgstr "BigLinux Vitajte"
 # 
-# File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 50
-msgid "Finish"
-msgstr "Dokončiť"
-# 
 # File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 57
 msgid "Show on startup"
 msgstr "Zobraziť pri spustení"
-# 
-# File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 162
-msgid "Welcome"
-msgstr "Vitajte"
 # 
 # File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 226
 msgid "Back"
@@ -235,17 +227,13 @@ msgstr "Späť"
 msgid "Next"
 msgstr "Ďalší"
 # 
-# File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 242
-msgid "Cancel"
-msgstr "Zrušiť"
+# File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 186
+msgid "Close"
+msgstr "Zavrieť"
 # 
-# File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 141
-msgid "Check if 'pages.yaml' exists and is correctly formatted."
-msgstr "Skontrolujte, či súbor 'pages.yaml' existuje a je správne naformátovaný."
-# 
-# File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 326
-msgid "Error"
-msgstr "Chyba"
+# File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 162
+msgid "Welcome"
+msgstr "Vitajte"
 # 
 # File: biglinux-welcome/usr/share/biglinux/welcome/welcome_logo_page.py, line: 81
 # File: biglinux-welcome/usr/share/biglinux/welcome/welcome_logo_page.py, line: 132

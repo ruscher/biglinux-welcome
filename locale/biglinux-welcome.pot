@@ -262,49 +262,34 @@ msgid   "Your donation is very important for the project and follow us on "
 msgstr  ""
 
 #
-# File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 39
-# File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 265
+# File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 38
 msgid   "BigLinux Welcome"
 msgstr  ""
 
 #
-# File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 50
-msgid   "Finish"
-msgstr  ""
-
-#
-# File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 57
+# File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 80
 msgid   "Show on startup"
 msgstr  ""
 
 #
-# File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 162
-msgid   "Welcome"
-msgstr  ""
-
-#
-# File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 226
+# File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 94
 msgid   "Back"
 msgstr  ""
 
 #
-# File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 232
+# File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 101
+# File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 189
 msgid   "Next"
 msgstr  ""
 
 #
-# File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 242
-msgid   "Cancel"
+# File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 186
+msgid   "Close"
 msgstr  ""
 
 #
-# File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 321
-msgid   "Check if 'pages.yaml' exists and is correctly formatted."
-msgstr  ""
-
-#
-# File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 326
-msgid   "Error"
+# File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 216
+msgid   "Welcome"
 msgstr  ""
 
 #
