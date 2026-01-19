@@ -22,6 +22,10 @@ msgid "An error occurred while install browser."
 msgstr "Asennuksessa tapahtui virhe selain."
 # 
 # File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 13
+msgid "Accessibility"
+msgstr "Saavutettavuus"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 13
 msgid "AppStore"
 msgstr "App Store"
 # 
@@ -131,6 +135,10 @@ msgstr ""
 "välillä paikallisissa verkoissa. Saatavilla Google Play -kaupassa Androidille ja Apple Store "
 "-kaupassa iPhonelle."
 # 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 40
+msgid "Kernel Manager"
+msgstr "Ydinmanageri"
+# 
 # File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 33
 msgid "Language Packs"
 msgstr "Kielipaketit"
@@ -138,6 +146,10 @@ msgstr "Kielipaketit"
 # File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 38
 msgid "Librewolf"
 msgstr "Librewolf"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 43
+msgid "Network Info"
+msgstr "Verkkotiedot"
 # 
 # File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 34
 msgid "Noise Reduction"
@@ -163,6 +175,10 @@ msgstr "PlayStore"
 msgid "Printers"
 msgstr "Tulostimet"
 # 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 50
+msgid "Session and Themes"
+msgstr "Istunto ja Teemat"
+# 
 # File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 40
 msgid "Set your default browser."
 msgstr "Aseta oletusselaimesi."
@@ -170,10 +186,6 @@ msgstr "Aseta oletusselaimesi."
 # File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 40
 msgid "Telegram"
 msgstr "Telegram"
-# 
-# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 41
-msgid "Themes and Tweaks"
-msgstr "Teemat ja säädöt"
 # 
 # File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 50
 msgid "Video Converter"
@@ -203,6 +215,10 @@ msgstr "Lahjoituksesi on erittäin tärkeä projektille ja seuraa meitä sosiaal
 # File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 265
 msgid "BigLinux Welcome"
 msgstr "BigLinux Tervetuloa"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 50
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 50
 # 
 # File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 50
 # 

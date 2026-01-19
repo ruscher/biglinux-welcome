@@ -22,6 +22,10 @@ msgid "An error occurred while install browser."
 msgstr "Une erreur s'est produite lors de l'installation du navigateur."
 # 
 # File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 13
+msgid "Accessibility"
+msgstr "Accessibilité"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 13
 msgid "AppStore"
 msgstr "App Store"
 # 
@@ -131,6 +135,10 @@ msgstr ""
 "entre les appareils sur des réseaux locaux. Disponible sur le Google Play Store pour Android et "
 "l'App Store pour iPhone."
 # 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 40
+msgid "Kernel Manager"
+msgstr "Gestionnaire de noyau"
+# 
 # File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 33
 msgid "Language Packs"
 msgstr "Packs de langue"
@@ -138,6 +146,10 @@ msgstr "Packs de langue"
 # File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 38
 msgid "Librewolf"
 msgstr "Librewolf"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 43
+msgid "Network Info"
+msgstr "Informations sur le réseau"
 # 
 # File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 34
 msgid "Noise Reduction"
@@ -163,6 +175,10 @@ msgstr "PlayStore"
 msgid "Printers"
 msgstr "Imprimantes"
 # 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 50
+msgid "Session and Themes"
+msgstr "Session et Thèmes"
+# 
 # File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 40
 msgid "Set your default browser."
 msgstr "Définissez votre navigateur par défaut."
@@ -170,10 +186,6 @@ msgstr "Définissez votre navigateur par défaut."
 # File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 40
 msgid "Telegram"
 msgstr "Telegram"
-# 
-# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 41
-msgid "Themes and Tweaks"
-msgstr "Thèmes et ajustements"
 # 
 # File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 50
 msgid "Video Converter"
@@ -203,6 +215,10 @@ msgstr "Votre don est très important pour le projet et suivez-nous sur les rés
 # File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 265
 msgid "BigLinux Welcome"
 msgstr "Bienvenue sur BigLinux"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 50
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 50
 # 
 # File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 50
 # 

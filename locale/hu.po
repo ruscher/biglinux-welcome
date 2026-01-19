@@ -22,6 +22,10 @@ msgid "An error occurred while install browser."
 msgstr "Hiba történt a böngésző telepítésekor."
 # 
 # File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 13
+msgid "Accessibility"
+msgstr "Hozzáférhetőség"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 13
 msgid "AppStore"
 msgstr "Alkalmazásbolt"
 # 
@@ -131,6 +135,10 @@ msgstr ""
 "átvitelét az eszközök között helyi hálózatokon. Elérhető a Google Play Áruházban Androidra és az "
 "Apple Áruházban iPhone-ra."
 # 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 40
+msgid "Kernel Manager"
+msgstr "Kernel Kezelő"
+# 
 # File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 33
 msgid "Language Packs"
 msgstr "Nyelvi csomagok"
@@ -138,6 +146,10 @@ msgstr "Nyelvi csomagok"
 # File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 38
 msgid "Librewolf"
 msgstr "Librewolf"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 43
+msgid "Network Info"
+msgstr "Hálózati információ"
 # 
 # File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 34
 msgid "Noise Reduction"
@@ -163,6 +175,10 @@ msgstr "PlayStore"
 msgid "Printers"
 msgstr "Nyomtatók"
 # 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 50
+msgid "Session and Themes"
+msgstr "Munkamenet és Témák"
+# 
 # File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 40
 msgid "Set your default browser."
 msgstr "Állítsa be az alapértelmezett böngészőt."
@@ -170,10 +186,6 @@ msgstr "Állítsa be az alapértelmezett böngészőt."
 # File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 40
 msgid "Telegram"
 msgstr "Telegram"
-# 
-# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 41
-msgid "Themes and Tweaks"
-msgstr "Témák és Finomhangolások"
 # 
 # File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 50
 msgid "Video Converter"

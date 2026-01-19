@@ -22,6 +22,10 @@ msgid "An error occurred while install browser."
 msgstr "Παρουσιάστηκε σφάλμα κατά την εγκατάσταση του προγράμματος περιήγησης."
 # 
 # File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 13
+msgid "Accessibility"
+msgstr "Προσβασιμότητα"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 13
 msgid "AppStore"
 msgstr "Κατάστημα Εφαρμογών"
 # 
@@ -131,6 +135,10 @@ msgstr ""
 "δεδομένων μεταξύ συσκευών σε τοπικά δίκτυα. Διαθέσιμο στο Google Play Store για Android και στο "
 "Apple Store για iPhone."
 # 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 40
+msgid "Kernel Manager"
+msgstr "Διαχειριστής Πυρήνα"
+# 
 # File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 33
 msgid "Language Packs"
 msgstr "Γλωσσικά Πακέτα"
@@ -138,6 +146,10 @@ msgstr "Γλωσσικά Πακέτα"
 # File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 38
 msgid "Librewolf"
 msgstr "Λιμπρέγουλφ"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 43
+msgid "Network Info"
+msgstr "Πληροφορίες Δικτύου"
 # 
 # File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 34
 msgid "Noise Reduction"
@@ -163,6 +175,10 @@ msgstr "PlayStore"
 msgid "Printers"
 msgstr "Εκτυπωτές"
 # 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 50
+msgid "Session and Themes"
+msgstr "Σύνοδος και Θέματα"
+# 
 # File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 40
 msgid "Set your default browser."
 msgstr "Ορίστε τον προεπιλεγμένο σας περιηγητή."
@@ -170,10 +186,6 @@ msgstr "Ορίστε τον προεπιλεγμένο σας περιηγητή
 # File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 40
 msgid "Telegram"
 msgstr "Τηλέγραμμα"
-# 
-# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 41
-msgid "Themes and Tweaks"
-msgstr "Θέματα και Ρυθμίσεις"
 # 
 # File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 50
 msgid "Video Converter"

@@ -22,6 +22,10 @@ msgid "An error occurred while install browser."
 msgstr "安装浏览器时发生错误。"
 # 
 # File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 13
+msgid "Accessibility"
+msgstr "无障碍性"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 13
 msgid "AppStore"
 msgstr "应用商店"
 # 
@@ -128,6 +132,10 @@ msgid ""
 "iPhone."
 msgstr "KDE Connect 是一款促进本地网络设备之间无线通信和数据传输的应用程序。可在 Android 的 Google Play 商店和 iPhone 的 Apple Store 上获取。"
 # 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 40
+msgid "Kernel Manager"
+msgstr "内核管理器"
+# 
 # File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 33
 msgid "Language Packs"
 msgstr "语言包"
@@ -135,6 +143,10 @@ msgstr "语言包"
 # File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 38
 msgid "Librewolf"
 msgstr "Librewolf"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 43
+msgid "Network Info"
+msgstr "网络信息"
 # 
 # File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 34
 msgid "Noise Reduction"
@@ -160,6 +172,10 @@ msgstr "Play商店"
 msgid "Printers"
 msgstr "打印机"
 # 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 50
+msgid "Session and Themes"
+msgstr "会话和主题"
+# 
 # File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 40
 msgid "Set your default browser."
 msgstr "设置您的默认浏览器。"
@@ -167,10 +183,6 @@ msgstr "设置您的默认浏览器。"
 # File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 40
 msgid "Telegram"
 msgstr "电报"
-# 
-# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 41
-msgid "Themes and Tweaks"
-msgstr "主题和调整"
 # 
 # File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 50
 msgid "Video Converter"
@@ -200,6 +212,10 @@ msgstr "您的捐赠对该项目非常重要，并请在社交媒体上关注我
 # File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 265
 msgid "BigLinux Welcome"
 msgstr "BigLinux 欢迎您"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 50
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 50
 # 
 # File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 50
 # 

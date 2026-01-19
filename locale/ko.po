@@ -22,6 +22,10 @@ msgid "An error occurred while install browser."
 msgstr "브라우저 설치 중 오류가 발생했습니다."
 # 
 # File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 13
+msgid "Accessibility"
+msgstr "접근성"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 13
 msgid "AppStore"
 msgstr "앱스토어"
 # 
@@ -130,6 +134,10 @@ msgstr ""
 "KDE Connect는 로컬 네트워크에서 장치 간의 무선 통신 및 데이터 전송을 용이하게 하는 애플리케이션입니다. Android용 Google Play 스토어와 iPhone용 "
 "Apple 스토어에서 사용할 수 있습니다."
 # 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 40
+msgid "Kernel Manager"
+msgstr "커널 관리자"
+# 
 # File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 33
 msgid "Language Packs"
 msgstr "언어 팩"
@@ -137,6 +145,10 @@ msgstr "언어 팩"
 # File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 38
 msgid "Librewolf"
 msgstr "리브레울프"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 43
+msgid "Network Info"
+msgstr "네트워크 정보"
 # 
 # File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 34
 msgid "Noise Reduction"
@@ -162,6 +174,10 @@ msgstr "플레이스토어"
 msgid "Printers"
 msgstr "프린터"
 # 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 50
+msgid "Session and Themes"
+msgstr "세션 및 테마"
+# 
 # File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 40
 msgid "Set your default browser."
 msgstr "기본 브라우저를 설정하세요."
@@ -169,10 +185,6 @@ msgstr "기본 브라우저를 설정하세요."
 # File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 40
 msgid "Telegram"
 msgstr "텔레그램"
-# 
-# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 41
-msgid "Themes and Tweaks"
-msgstr "테마 및 조정"
 # 
 # File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 50
 msgid "Video Converter"

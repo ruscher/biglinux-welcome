@@ -22,6 +22,10 @@ msgid "An error occurred while install browser."
 msgstr "Brauseri installimise ajal tekkis viga."
 # 
 # File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 13
+msgid "Accessibility"
+msgstr "Ligipääsetavus"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 13
 msgid "AppStore"
 msgstr "Rakenduste pood"
 # 
@@ -130,6 +134,10 @@ msgstr ""
 "KDE Connect on rakendus, mis hõlbustab traadita suhtlemist ja andmete edastamist seadmete vahel "
 "kohalikes võrkudes. Saadaval Google Play poes Androidile ja Apple Store'is iPhone'ile."
 # 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 40
+msgid "Kernel Manager"
+msgstr "Kernelihaldur"
+# 
 # File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 33
 msgid "Language Packs"
 msgstr "Keelepakkide komplektid"
@@ -137,6 +145,10 @@ msgstr "Keelepakkide komplektid"
 # File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 38
 msgid "Librewolf"
 msgstr "Librewolf"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 43
+msgid "Network Info"
+msgstr "Võrgu teave"
 # 
 # File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 34
 msgid "Noise Reduction"
@@ -162,6 +174,10 @@ msgstr "PlayStore"
 msgid "Printers"
 msgstr "Printerid"
 # 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 50
+msgid "Session and Themes"
+msgstr "Seansid ja teemad"
+# 
 # File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 40
 msgid "Set your default browser."
 msgstr "Seadke oma vaikebrauser."
@@ -169,10 +185,6 @@ msgstr "Seadke oma vaikebrauser."
 # File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 40
 msgid "Telegram"
 msgstr "Telegram"
-# 
-# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 41
-msgid "Themes and Tweaks"
-msgstr "Teemad ja kohandused"
 # 
 # File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 50
 msgid "Video Converter"
@@ -202,6 +214,10 @@ msgstr "Teie annetus on projektile väga oluline ja jälgige meid sotsiaalmeedia
 # File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 265
 msgid "BigLinux Welcome"
 msgstr "BigLinux Tere tulemast"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 50
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 50
 # 
 # File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 50
 # 
