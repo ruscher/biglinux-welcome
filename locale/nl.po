@@ -212,6 +212,10 @@ msgstr "BigLinux Welkom"
 # 
 # File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 50
 # 
+# File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 50
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 50
+# 
 # File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 57
 msgid "Show on startup"
 msgstr "Toon bij opstarten"
