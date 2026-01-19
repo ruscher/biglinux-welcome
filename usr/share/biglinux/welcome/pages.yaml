@@ -10,7 +10,7 @@
     - label: "Display Settings"
       icon: "video-display-symbolic"
       type: "app"
-      command: "kcmshell6 kcm_kscreen"
+      command: "systemsettings kcm_kscreen"
 
     - label: "Themes and Tweaks"
       icon: "preferences-desktop-theme-symbolic"
