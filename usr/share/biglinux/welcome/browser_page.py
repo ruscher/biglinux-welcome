@@ -88,19 +88,31 @@ class BrowserPage(Adw.Bin):
     def refresh_browser_states(self):
         """Update all browser widgets to reflect the current system state."""
         self.flowbox.set_sensitive(False) # Disable during check
-        default_browser_desktop = self._get_default_browser()
+        current_browser_default = self._run_script(["getBrowser"])
 
         for widget in self.browser_widgets:
-            browser = widget.browser_data
-            is_installed = self._is_installed(browser['package'])
-            is_default = (browser['desktop_file'] == default_browser_desktop)
+            browser_data = widget.browser_data
+            is_installed = False
+            installed_desktop = None
+
+            # Checks each variant (Native or Flatpak) defined in the YAML
+            for variant in browser_data.get('variants', []):
+                if os.path.exists(variant['check']):
+                    is_installed = True
+                    installed_desktop = variant['desktop']
+                    break # Stops at the first one found installed
+
+            # Checks if it's the default
+            is_default = (is_installed and installed_desktop == current_browser_default)
 
             widget.set_installed(is_installed)
             widget.set_default(is_default)
+            # We save which desktop is active to use on click
+            widget.detected_desktop = installed_desktop
 
-        self.flowbox.set_sensitive(True) # Re-enable
+        self.flowbox.set_sensitive(True)
         self.spinner.stop()
-        return GLib.SOURCE_REMOVE # Important for idle_add
+        return GLib.SOURCE_REMOVE
 
     def _on_browser_clicked(self, button, browser_data):
         """Handle click: install if needed, then set as default."""
@@ -112,16 +124,22 @@ class BrowserPage(Adw.Bin):
         thread.start()
 
     def _perform_browser_action(self, browser_data):
-        """Worker thread function to perform installation and set default."""
-        is_installed = self._is_installed(browser_data['package'])
+        # Checks if it's installed (using path logic)
+        is_installed = any(os.path.exists(v['check']) for v in browser_data.get('variants', []))
 
         if not is_installed:
-            # The script handles pkexec and user feedback, so we just run it.
             self._run_script(["install", browser_data['package']])
-            # We can check exit code if needed, but for now we'll just refresh.
 
-        # Set as default after installation or if it was already installed
-        self._run_script(["setBrowser", browser_data['package']])
+        # After installing, we need to know which .desktop file is available
+        # (We run the quick check again)
+        desktop_to_set = None
+        for variant in browser_data.get('variants', []):
+            if os.path.exists(variant['check']):
+                desktop_to_set = variant['desktop']
+                break
 
-        # After the task is done, schedule a UI update on the main thread
+        # Sets it as default using the specific .desktop file
+        if desktop_to_set:
+            self._run_script(["setBrowser", desktop_to_set])
+
         GLib.idle_add(self.refresh_browser_states)

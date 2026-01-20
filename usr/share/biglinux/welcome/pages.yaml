@@ -40,49 +40,58 @@
   page_type: "browsers"
   actions:
     - label: "Brave"
-      type: "browser"
       package: "brave"
-      desktop_file: ["brave-browser.desktop", "com.brave.Browser.desktop"]
+      variants:
+        - { check: "/usr/bin/brave", desktop: "brave-browser.desktop" }
+        - { check: "/var/lib/flatpak/app/com.brave.Browser", desktop: "com.brave.Browser.desktop" }
 
     - label: "Chromium"
-      type: "browser"
       package: "chromium"
-      desktop_file: ["chromium.desktop", "org.chromium.Chromium.desktop"]
+      variants:
+        - { check: "/usr/bin/chromium", desktop: "chromium.desktop" }
+        - { check: "/var/lib/flatpak/app/org.chromium.Chromium", desktop: "org.chromium.Chromium.desktop" }
 
     - label: "Chrome"
-      type: "browser"
       package: "google-chrome"
-      desktop_file: ["google-chrome.desktop", "com.google.Chrome.desktop"]
+      variants:
+        - { check: "/usr/bin/google-chrome-stable", desktop: "google-chrome.desktop" }
+        - { check: "/var/lib/flatpak/app/com.google.Chrome", desktop: "com.google.Chrome.desktop" }
 
     - label: "Falkon"
-      type: "browser"
       package: "falkon"
-      desktop_file: ["org.kde.falkon.desktop"]
+      variants:
+        - { check: "/usr/bin/falkon", desktop: "org.kde.falkon.desktop" }
+        - { check: "/var/lib/flatpak/app/org.kde.falkon", desktop: "org.kde.falkon.desktop" }
 
     - label: "Firefox"
-      type: "browser"
       package: "firefox"
-      desktop_file: ["firefox.desktop", "org.mozilla.firefox.desktop"]
+      variants:
+        - { check: "/usr/bin/firefox", desktop: "firefox.desktop" }
+        - { check: "/var/lib/flatpak/app/org.mozilla.firefox", desktop: "org.mozilla.firefox.desktop" }
 
     - label: "Librewolf"
-      type: "browser"
       package: "librewolf"
-      desktop_file: ["librewolf.desktop", "io.gitlab.librewolf-community.desktop"]
+      variants:
+        - { check: "/usr/bin/librewolf", desktop: "librewolf.desktop" }
+        - { check: "/var/lib/flatpak/app/io.gitlab.librewolf-community", desktop: "io.gitlab.librewolf-community.desktop" }
 
     - label: "Opera"
-      type: "browser"
       package: "opera"
-      desktop_file: ["opera.desktop", "com.opera.Opera.desktop"]
+      variants:
+        - { check: "/usr/bin/opera", desktop: "opera.desktop" }
+        - { check: "/var/lib/flatpak/app/com.opera.Opera", desktop: "com.opera.Opera.desktop" }
 
     - label: "Vivaldi"
-      type: "browser"
       package: "vivaldi"
-      desktop_file: ["vivaldi-stable.desktop", "com.vivaldi.Vivaldi.desktop"]
+      variants:
+        - { check: "/usr/bin/vivaldi", desktop: "vivaldi-stable.desktop" }
+        - { check: "/var/lib/flatpak/app/com.vivaldi.Vivaldi", desktop: "com.vivaldi.Vivaldi.desktop" }
 
     - label: "Edge"
-      type: "browser"
       package: "edge"
-      desktop_file: ["microsoft-edge.desktop", "com.microsoft.Edge.desktop"]
+      variants:
+        - { check: "/usr/bin/microsoft-edge-stable", desktop: "microsoft-edge.desktop" }
+        - { check: "/var/lib/flatpak/app/com.microsoft.Edge", desktop: "com.microsoft.Edge.desktop" }
 
 - title: "KDE Connect"
   subtitle: "KDE Connect is an application that facilitates wireless communication and data transfer between devices on local networks. Available on the Google Play Store for Android and the Apple Store for iPhone."
