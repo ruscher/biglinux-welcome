@@ -81,9 +81,9 @@ class BrowserPage(Adw.Bin):
         output = self._run_script(["check", package_name])
         return output == "true"
 
-    def _get_default_browser(self):
+    def _get_default_browser(self, package_name):
         """Get the .desktop file of the current default browser via the script."""
-        return self._run_script(["getBrowser"])
+        return self._run_script(["getBrowser", package_name])
 
     def refresh_browser_states(self):
         """Update all browser widgets to reflect the current system state."""
@@ -93,7 +93,15 @@ class BrowserPage(Adw.Bin):
         for widget in self.browser_widgets:
             browser = widget.browser_data
             is_installed = self._is_installed(browser['package'])
-            is_default = (browser['desktop_file'] == default_browser_desktop)
+            allowed_desktop_files = browser.get('desktop_file', [])
+
+            # Verifica se é o padrão
+            if isinstance(allowed_desktop_files, list):
+                # Se for uma lista, verifica se o padrão do sistema está nela
+                is_default = default_browser_desktop in allowed_desktop_files
+            else:
+                # Se for apenas uma string, faz a comparação direta como antes
+                is_default = (allowed_desktop_files == default_browser_desktop)
 
             widget.set_installed(is_installed)
             widget.set_default(is_default)
@@ -121,7 +129,7 @@ class BrowserPage(Adw.Bin):
             # We can check exit code if needed, but for now we'll just refresh.
 
         # Set as default after installation or if it was already installed
-        self._run_script(["setBrowser", browser_data['desktop_file']])
+        self._run_script(["setBrowser", browser_data['package']])
 
         # After the task is done, schedule a UI update on the main thread
         GLib.idle_add(self.refresh_browser_states)

@@ -42,47 +42,47 @@
     - label: "Brave"
       type: "browser"
       package: "brave"
-      desktop_file: "brave-browser.desktop"
+      desktop_file: ["brave-browser.desktop", "com.brave.Browser.desktop"]
 
     - label: "Chromium"
       type: "browser"
       package: "chromium"
-      desktop_file: "chromium.desktop"
+      desktop_file: ["chromium.desktop", "org.chromium.Chromium.desktop"]
 
     - label: "Chrome"
       type: "browser"
       package: "google-chrome"
-      desktop_file: "google-chrome.desktop"
+      desktop_file: ["google-chrome.desktop", "com.google.Chrome.desktop"]
 
     - label: "Falkon"
       type: "browser"
       package: "falkon"
-      desktop_file: "org.kde.falkon.desktop"
+      desktop_file: ["org.kde.falkon.desktop"]
 
     - label: "Firefox"
       type: "browser"
       package: "firefox"
-      desktop_file: "firefox.desktop"
+      desktop_file: ["firefox.desktop", "org.mozilla.firefox.desktop"]
 
     - label: "Librewolf"
       type: "browser"
       package: "librewolf"
-      desktop_file: "librewolf.desktop"
+      desktop_file: ["librewolf.desktop", "io.gitlab.librewolf-community.desktop"]
 
     - label: "Opera"
       type: "browser"
       package: "opera"
-      desktop_file: "opera.desktop"
+      desktop_file: ["opera.desktop", "com.opera.Opera.desktop"]
 
     - label: "Vivaldi"
       type: "browser"
       package: "vivaldi"
-      desktop_file: "vivaldi-stable.desktop"
+      desktop_file: ["vivaldi-stable.desktop", "com.vivaldi.Vivaldi.desktop"]
 
     - label: "Edge"
       type: "browser"
       package: "edge"
-      desktop_file: "microsoft-edge.desktop"
+      desktop_file: ["microsoft-edge.desktop", "com.microsoft.Edge.desktop"]
 
 - title: "KDE Connect"
   subtitle: "KDE Connect is an application that facilitates wireless communication and data transfer between devices on local networks. Available on the Google Play Store for Android and the Apple Store for iPhone."
