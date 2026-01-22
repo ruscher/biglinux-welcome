@@ -51,6 +51,8 @@ installBrowser() {
     pacman -Syu --noconfirm vivaldi 2>&1 >> $log 2>&1
   elif [[ "$browser" == "edge" ]]; then
     yay -Syu --noconfirm microsoft-edge-stable-bin >> $log 2>&1
+  elif [[ "$browser" == "zen-browser" ]]; then
+    yay -Syu --noconfirm zen-browser-bin 2>&1 >> $log 2>&1
   fi
   exitCode=$?
 }
