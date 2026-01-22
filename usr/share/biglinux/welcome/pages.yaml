@@ -93,6 +93,12 @@
         - { check: "/usr/bin/microsoft-edge-stable", desktop: "microsoft-edge.desktop" }
         - { check: "/var/lib/flatpak/app/com.microsoft.Edge", desktop: "com.microsoft.Edge.desktop" }
 
+    - label: "Zen Browser"
+      package: "zen-browser"
+      variants:
+        - { check: "/usr/bin/zen-browser", desktop: "zen.desktop" }
+        - { check: "/var/lib/flatpak/app/app.zen_browser.zen", desktop: "app.zen_browser.zen.desktop" }
+
 - title: "KDE Connect"
   subtitle: "KDE Connect is an application that facilitates wireless communication and data transfer between devices on local networks. Available on the Google Play Store for Android and the Apple Store for iPhone."
   icon: "kdeconnect-symbolic"
