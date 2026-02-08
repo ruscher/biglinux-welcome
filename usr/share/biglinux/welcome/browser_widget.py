@@ -42,7 +42,8 @@ class BrowserWidget(Gtk.Box):
             icon_widget.set_pixel_size(64)
         except GLib.Error as e:
             print(f"Error loading icon {icon_path}: {e}. Using fallback.")
-            icon_widget = Gtk.Image.new_from_icon_name("image-missing-symbolic")
+            fallback_path = os.path.join(self.app_path, "image", "main", "image-missing-symbolic.svg")
+            icon_widget = Gtk.Image.new_from_file(fallback_path)
             icon_widget.set_pixel_size(64)
 
         # Allow the icon widget to expand and fill the fixed-size container.
@@ -51,7 +52,8 @@ class BrowserWidget(Gtk.Box):
         icon_container.append(icon_widget)
 
         # Checkmark Overlay
-        self.check_icon = Gtk.Image.new_from_icon_name("object-select-symbolic")
+        checkmark_path = os.path.join(self.app_path, "image", "main", "object-select-symbolic.svg")
+        self.check_icon = Gtk.Image.new_from_file(checkmark_path)
         self.check_icon.add_css_class("success")
 
         self.overlay = Gtk.Overlay()

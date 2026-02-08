@@ -1,16 +1,18 @@
 import gi
-gi.require_version('Gtk', '4.0')
-from gi.repository import Gtk, Gdk, GLib
-import subprocess
-import shlex
-import locale
+
+gi.require_version("Gtk", "4.0")
 import gettext
+import locale
 import os
+import shlex
+import subprocess
+
+from gi.repository import Gdk, GdkPixbuf, GLib, Gtk
 
 # Set up gettext for application localization.
-DOMAIN = 'biglinux-welcome'
-LOCALE_DIR = '/usr/share/locale'
-locale.setlocale(locale.LC_ALL, '')
+DOMAIN = "biglinux-welcome"
+LOCALE_DIR = "/usr/share/locale"
+locale.setlocale(locale.LC_ALL, "")
 locale.bindtextdomain(DOMAIN, LOCALE_DIR)
 locale.textdomain(DOMAIN)
 gettext.bindtextdomain(DOMAIN, LOCALE_DIR)
@@ -19,11 +21,13 @@ _ = gettext.gettext
 
 APP_PATH = None
 
+
 class ActionWidget(Gtk.Box):
     """
     A custom widget that can be either a clickable button with an icon and label,
     or a static image with a label.
     """
+
     def __init__(self, label, icon_name, action_type, command, **kwargs):
         super().__init__(orientation=Gtk.Orientation.VERTICAL, spacing=6, **kwargs)
 
@@ -37,10 +41,25 @@ class ActionWidget(Gtk.Box):
 
     def build_image_widget(self, label, icon_name):
         """Builds a non-clickable image widget."""
-        # Icon/Image
+        # Icon/Image - Use GdkPixbuf for sharp rendering
         image_path = os.path.join(APP_PATH, "image", icon_name)
-        image = Gtk.Image.new_from_file(image_path)
-        image.set_pixel_size(200)
+        
+        try:
+            pixbuf = GdkPixbuf.Pixbuf.new_from_file_at_size(image_path, 64, 64)
+            image = Gtk.Image.new_from_pixbuf(pixbuf)
+            image.set_pixel_size(64)
+        except GLib.Error as e:
+            print(f"Error loading image {image_path}: {e}. Using fallback.")
+            # Fallback
+            fallback_path = os.path.join(APP_PATH, "image", "main", "image-missing-symbolic.svg")
+            try:
+                pixbuf = GdkPixbuf.Pixbuf.new_from_file_at_size(fallback_path, 64, 64)
+                image = Gtk.Image.new_from_pixbuf(pixbuf)
+                image.set_pixel_size(64)
+            except GLib.Error:
+                image = Gtk.Image.new_from_icon_name("image-missing")
+                image.set_pixel_size(64)
+                
         image.set_halign(Gtk.Align.CENTER)
         self.append(image)
 
@@ -60,31 +79,40 @@ class ActionWidget(Gtk.Box):
         content_box = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=6)
         button.set_child(content_box)
 
-        # Use Gtk.Image, which is simpler for theme icons
-        if icon_name.startswith("image/") or "/" in icon_name or icon_name.endswith(".svg") or icon_name.endswith(".png"):
-            # Try to load as file relative to APP_PATH
-            
-            potential_path = os.path.join(APP_PATH, icon_name)
-            if not os.path.exists(potential_path) and icon_name.startswith("image/"):
-                pass
-            
-            if os.path.exists(potential_path):
-                 icon = Gtk.Image.new_from_file(potential_path)
-            else:
-                 # Fallback: try inside image/ folder directly if not found
-                 icon_path_in_image_folder = os.path.join(APP_PATH, "image", os.path.basename(icon_name))
-                 if os.path.exists(icon_path_in_image_folder):
-                     icon = Gtk.Image.new_from_file(icon_path_in_image_folder)
-                 else:
-                     # Fallback to icon name if file not found
-                     icon = Gtk.Image.new_from_icon_name(icon_name)
-            
-            # Use larger size for file images (like QR codes)
-            icon.set_pixel_size(200)
+        # Try to load from file - check both direct path and nested folder paths
+        # Use GdkPixbuf to render SVG at exact size for sharpness (same strategy as browser_widget)
+        icon_path = os.path.join(APP_PATH, "image", icon_name)
+        icon_size = 64  # Match browser page icon size
+        
+        if os.path.exists(icon_path):
+            try:
+                pixbuf = GdkPixbuf.Pixbuf.new_from_file_at_size(icon_path, icon_size, icon_size)
+                icon = Gtk.Image.new_from_pixbuf(pixbuf)
+                icon.set_pixel_size(icon_size)
+            except GLib.Error as e:
+                print(f"Error loading icon {icon_path}: {e}. Using fallback.")
+                # Fallback to missing icon image
+                fallback_path = os.path.join(APP_PATH, "image", "main", "image-missing-symbolic.svg")
+                try:
+                    pixbuf = GdkPixbuf.Pixbuf.new_from_file_at_size(fallback_path, 64, 64)
+                    icon = Gtk.Image.new_from_pixbuf(pixbuf)
+                    icon.set_pixel_size(64)
+                except GLib.Error:
+                    # Ultimate fallback
+                    icon = Gtk.Image.new_from_icon_name("image-missing")
+                    icon.set_pixel_size(64)
         else:
-            icon = Gtk.Image.new_from_icon_name(icon_name)
-            icon.set_pixel_size(64)
-            
+            # Fallback to missing icon image
+            fallback_path = os.path.join(APP_PATH, "image", "main", "image-missing-symbolic.svg")
+            try:
+                pixbuf = GdkPixbuf.Pixbuf.new_from_file_at_size(fallback_path, 64, 64)
+                icon = Gtk.Image.new_from_pixbuf(pixbuf)
+                icon.set_pixel_size(64)
+            except GLib.Error:
+                icon = Gtk.Image.new_from_icon_name("image-missing")
+                icon.set_pixel_size(64)
+            print(f"Warning: Icon not found at {icon_path}, using fallback")
+
         content_box.append(icon)
 
         # Label
