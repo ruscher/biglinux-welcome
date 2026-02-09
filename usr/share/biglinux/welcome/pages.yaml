@@ -191,6 +191,16 @@
       type: "app"
       command: "big-audio-converter-gui"
 
+    - label: "Ashy Terminal"
+      icon: "discover/ashyterm.svg"
+      type: "app"
+      command: "ashyterm"
+
+    - label: "Time Shift"
+      icon: "discover/timeshift.svg"
+      type: "app"
+      command: "timeshift-launcher"
+
 - title: "Donation and Social Networks"
   subtitle: "Your donation is very important for the project and follow us on social media."
   icon: "emblem-favorite-symbolic"
